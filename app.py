@@ -19,7 +19,7 @@ labels = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "K", "L", "M", "N", "O", 
 
 @app.route('/')
 def index():
-    return render_template('index2.html')
+    return render_template('index.html')
 
 def generate_frames():
     while True:
